@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import React from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Header/>
+      <div className='py-80 bg-slate-600'/>
+      <Footer/>
     </>
   )
 }
